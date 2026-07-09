@@ -22,6 +22,11 @@ implements `IFaceID` there.
 Sibling of [`kotoba-lang/com-apple-touchid`](https://github.com/kotoba-lang/com-apple-touchid)
 — identical shape, distinct `LABiometryType`.
 
+See [`kotoba-lang/faceid`](https://github.com/kotoba-lang/faceid) for the
+result-shape substrate layer that composes this with other auth factors
+(host-port pattern, no network/crypto here either, but a different
+abstraction level).
+
 ## Usage
 
 ```clojure
